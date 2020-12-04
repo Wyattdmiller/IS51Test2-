@@ -8,3 +8,31 @@ Then it will check each grade in the list and compare it to the average.
 It will keep track of how many grades were above the average,
 and display that number as a percentage of the number of grades. 
 """
+
+""" Pseudo-Code
+def main:
+  file = Final.txt
+  displayWithList(file)
+  calculate_percent_above_avg(file)
+
+def displayWithList(file):
+  infile = open(file)
+  listGrades = lines of file
+  close file
+  print(number of grades: )
+  print(len(listGrades))
+  avg = sum(listGrades) / len(listGrades)
+  print(Average of grades:)
+  print(avg)
+  
+def calculate_percent_above_avg(file):
+  counter = 0
+  for line in file
+    if grade > avg
+      counter +=1
+  percentHigher = counter / len(listGrades)
+  print(The percent of grades above average is:)
+  print(percentHigher %)
+
+main()
+"""
